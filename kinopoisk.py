@@ -20,7 +20,7 @@ class Kinopoisk:
         raw_cook = raw_cook.split('; ')
         self.cookies = {i.split('=')[0]: i.split('=')[1] for i in raw_cook}
 
-        # raw_cook = cookie_2
+        raw_cook = cookie_2
         raw_cook = raw_cook.split('; ')
         self.cookies_for_status = {i.split('=')[0]: i.split('=')[1] for i in raw_cook}
 
